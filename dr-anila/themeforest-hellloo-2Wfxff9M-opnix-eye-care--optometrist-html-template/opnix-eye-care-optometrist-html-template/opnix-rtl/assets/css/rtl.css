@@ -1,0 +1,697 @@
+.header-area .right ul li {
+  padding-left: 0;
+  padding-right: 50px;
+  margin-right: 0;
+  margin-left: 50px;
+}
+.header-area .right ul li:last-child {
+  margin-left: 0;
+}
+.header-area .right ul li i {
+  right: 0;
+  left: auto;
+}
+
+.main-nav nav .navbar-nav {
+  margin-left: auto;
+  margin-right: 0;
+}
+.main-nav nav .navbar-nav .nav-item a:before {
+  left: unset;
+  right: 0;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+.side-nav .cart {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.side-nav .cart a i {
+  transform: rotateY(180deg);
+}
+.side-nav .cart a span {
+  right: auto;
+  left: -4px;
+}
+.side-nav .social {
+  margin-right: 0;
+  margin-left: 25px;
+}
+.side-nav .social ul li {
+  margin-right: 0;
+  margin-left: 3px;
+}
+.side-nav .social ul li:last-child {
+  margin-left: 0;
+}
+.side-nav .languages {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.side-nav .languages .nice-select {
+  padding-left: 30px;
+  padding-right: 18px;
+}
+.side-nav .languages .nice-select:after {
+  right: auto;
+  left: 12px;
+}
+.side-nav .languages .nice-select .option {
+  padding-left: 29px;
+  padding-right: 18px;
+  text-align: right;
+}
+
+.banner-item:before {
+  background: linear-gradient(280deg, rgba(255, 255, 255, 0.8169688536) 36%, rgba(255, 255, 255, 0) 61%);
+  opacity: 0.8;
+}
+
+.about-area .about-content ul li {
+  padding-left: 0;
+  padding-right: 40px;
+}
+.about-area .about-content ul li i {
+  left: auto;
+  right: 0;
+}
+
+.services-item .bottom {
+  padding: 30px 105px 30px 30px;
+}
+.services-item .bottom .icon {
+  left: auto;
+  right: 30px;
+}
+
+.consultation-area .consultation-content ul li .common-btn {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.doctors-item .top ul {
+  left: auto;
+  right: 30px;
+}
+.doctors-item .bottom .right {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.choose-area .choose-content ul li {
+  padding-left: 0;
+  padding-right: 70px;
+}
+.choose-area .choose-content ul li i {
+  left: auto;
+  right: 0;
+}
+
+.blog-item .bottom ul li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.testimonials-area .testimonials-item {
+  padding: 30px 30px 30px 90px;
+}
+.testimonials-area .testimonials-item .top {
+  padding-left: 0;
+  padding-right: 75px;
+}
+.testimonials-area .testimonials-item .top img {
+  left: auto;
+  right: 0;
+}
+.testimonials-area .testimonials-item .icon {
+  right: auto;
+  left: 35px;
+}
+.testimonials-area .testimonials-img img {
+  right: auto;
+  left: 30px;
+}
+
+.footer-item .footer-links ul li a:hover {
+  padding-left: 0;
+  padding-right: 5px;
+}
+.footer-item .footer-hours ul li span {
+  right: auto;
+  left: 0;
+}
+
+.copyright-area ul li {
+  margin-right: 0;
+  margin-left: 15px;
+  padding-right: 0;
+  padding-left: 15px;
+  border-right: 0;
+  border-left: 1px solid #fff;
+}
+.copyright-area ul li:last-child {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+}
+
+.go-top {
+  right: auto;
+  left: 0;
+}
+.go-top.active {
+  right: auto;
+  left: 1%;
+}
+
+.banner-area.two .banner-item:before {
+  background: linear-gradient(280deg, rgba(255, 255, 255, 0.816969) 36%, rgba(255, 255, 255, 0) 61%);
+}
+
+.counter-item {
+  padding: 40px 115px 40px 30px;
+}
+.counter-item i {
+  left: auto;
+  right: 30px;
+}
+
+.client-area .client-item ul {
+  right: auto;
+  left: 0;
+}
+.client-area .client-img img {
+  right: auto;
+  left: 30px;
+}
+
+.features-item span {
+  right: auto;
+  left: 30px;
+}
+
+.appointment-area .appointment-content {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.banner-area.three .banner-shape img:nth-child(3) {
+  right: auto;
+  left: 75px;
+}
+
+.main-nav.two .side-nav .social {
+  margin-left: 0;
+}
+
+.banner-area.three .banner-content .banner-btn {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.about-area.three .about-content {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.about-area.three .about-content .section-title p {
+  border-right: 3px solid #20bdd1;
+  border-left: 0;
+  padding-left: 0;
+  padding-right: 15px;
+}
+.about-area.three .about-content ul li {
+  margin-right: 0;
+  margin-left: 20px;
+  padding-right: 0;
+}
+.about-area.three .about-content ul li span {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.about-area.three .about-img-two:before {
+  left: auto;
+  right: 0;
+}
+.about-area.three .about-img-two img {
+  left: auto;
+  right: 40px;
+}
+
+.services-area.three .section-title p {
+  right: auto;
+  left: 0;
+}
+
+.faq-area .faq-item .accordion li .faq-head {
+  padding-left: 0;
+  padding-right: 50px;
+}
+.faq-area .faq-item .accordion li .faq-head:after {
+  right: auto;
+  left: 15px;
+}
+.faq-area .faq-item .accordion li .faq-head span {
+  left: auto;
+  right: 0;
+}
+.faq-area .faq-item .accordion li .faq-content {
+  padding-left: 0;
+  padding-right: 50px;
+}
+
+.page-title-area .title-content ul li:before {
+  right: auto;
+  left: -13px;
+}
+
+.services-area.four .section-title p {
+  left: 0;
+  right: auto;
+}
+
+.common-doctor-contact .inner {
+  padding-left: 0;
+  padding-right: 85px;
+}
+.common-doctor-contact .inner i {
+  left: auto;
+  right: 0;
+}
+
+.doctor-details-area .details-content .info ul li span {
+  right: auto;
+  left: 0;
+}
+.doctor-details-area .details-content .inner {
+  padding: 50px 110px 50px 30px;
+}
+.doctor-details-area .details-content .inner i {
+  left: auto;
+  right: 30px;
+}
+.doctor-details-area .details-content .list-service ul li {
+  margin-right: 0;
+  margin-left: 15px;
+  padding: 15px 35px 15px 15px;
+}
+.doctor-details-area .details-content .list-service ul li:before {
+  left: auto;
+  right: 15px;
+}
+
+.widget-area .widget-item h3:before {
+  left: auto;
+  right: 0;
+}
+.widget-area .categories ul li a {
+  padding: 15px 35px 15px 15px;
+}
+.widget-area .categories ul li a:before {
+  left: auto;
+  right: 15px;
+}
+.widget-area .consult .nice-select {
+  padding-left: 30px;
+  padding-right: 18px;
+  text-align: right !important;
+}
+.widget-area .consult .nice-select:after {
+  right: auto;
+  left: 12px;
+}
+.widget-area .consult .nice-select .option {
+  padding-left: 29px;
+  padding-right: 18px;
+  text-align: right;
+}
+
+.form-control {
+  text-align: right !important;
+}
+
+.service-details-area .details-item ul li {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.service-details-area .details-item ul li:before {
+  left: auto;
+  right: 0;
+}
+
+.cart-area .cart-content p {
+  padding: 30px 75px 30px 30px;
+}
+.cart-area .cart-content p:before {
+  left: auto;
+  right: 30px;
+}
+
+.checkout-area .summery ul li span {
+  right: auto;
+  left: 0;
+}
+.checkout-area .top .form-check {
+  padding: 25px 60px 25px 25px;
+}
+
+.shop-details-area .details-content .tag li span {
+  right: auto;
+  left: 0;
+}
+.shop-details-area .details-content .tag li .number {
+  right: auto;
+  left: 0;
+}
+.shop-details-area .describe-area .nav-pills .nav-item:first-child .nav-link {
+  padding-left: 25px;
+  padding-right: 0;
+}
+.shop-details-area .describe-area .nav-pills .nav-item:last-child .nav-link {
+  border-left: 0;
+  padding-right: 25px;
+}
+.shop-details-area .describe-area .nav-pills .nav-link {
+  border-left: 1px solid #20bdd1;
+  border-right: 0;
+}
+.shop-details-area .describe-area .tab-content ul li {
+  padding-left: 0;
+  padding-right: 110px;
+}
+.shop-details-area .describe-area .tab-content ul li img {
+  left: auto;
+  right: 0;
+}
+
+.blog-details-area .details-item ul li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.blog-details-area .details-item blockquote {
+  border-left: 0;
+  border-right: 2px solid #20bdd1;
+}
+.blog-details-area .details-item .tags .right ul li {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.blog-details-area .details-item .tags .left ul li {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.blog-details-area .details-item .tags .left ul li:last-child:before {
+  display: none;
+}
+.blog-details-area .details-item .tags .left ul li:before {
+  right: auto;
+  left: -6px;
+}
+
+.widget-area .search form .btn {
+  right: auto;
+  left: 0;
+}
+.widget-area .post .inner ul li:nth-child(2) {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.widget-area .post .inner ul li span {
+  padding-left: 0;
+  padding-right: 15px;
+}
+.widget-area .post .inner ul li span:before {
+  left: auto;
+  right: 0;
+}
+.widget-area .tags ul li {
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+.account-area .account-item .nav-pills li:last-child .nav-link {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+}
+.account-area .account-item .nav-pills li .nav-link {
+  border-right: 0;
+  border-left: 1px solid #35405c;
+  margin-right: 0;
+  margin-left: 20px;
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+.rules-area .inner ul li {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.rules-area .inner ul li:before {
+  left: auto;
+  right: 0;
+}
+
+.modal.modal-right .modal-dialog {
+  transform: translate(-100%, 0);
+  margin: 0 auto 0 0;
+}
+
+.buy-now-btn {
+  left: 20px;
+  right: auto;
+}
+
+.switch-box {
+  left: 120px;
+  right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .header-area .right ul li {
+    margin-left: 0;
+  }
+  .side-nav .social {
+    margin-left: 5px;
+    position: relative;
+    top: 3px;
+  }
+  .side-nav .languages {
+    margin-left: 2px;
+  }
+  .banner-item:before {
+    background: #fff;
+    opacity: 0.8;
+  }
+  .services-item .bottom {
+    padding: 30px 30px 30px 30px;
+  }
+  .services-item .bottom .icon {
+    right: 0;
+  }
+  .consultation-area .consultation-content ul li .common-btn {
+    margin-left: 0;
+  }
+  .doctors-item .bottom .right {
+    margin-right: 0;
+  }
+  .choose-area .choose-content ul li {
+    padding-right: 0;
+  }
+  .testimonials-area .testimonials-item {
+    padding: 30px 30px 30px 30px;
+  }
+  .testimonials-area .testimonials-item .top {
+    padding-right: 0;
+  }
+  .testimonials-area .testimonials-img img {
+    left: 0;
+  }
+  .banner-area.two .banner-item:before {
+    background: #fff;
+    opacity: 0.8;
+  }
+  .counter-item {
+    padding: 40px 20px 40px 20px;
+  }
+  .counter-item i {
+    right: 0;
+  }
+  .client-area .client-img img {
+    left: 0;
+  }
+  .appointment-area .appointment-content {
+    padding-right: 0;
+  }
+  .banner-area.three .banner-shape img:nth-child(3) {
+    left: 0;
+  }
+  .about-area.three .about-img-two img {
+    right: 0;
+  }
+  .about-area.three .about-content {
+    padding-right: 0;
+  }
+  .faq-area .faq-item .accordion li .faq-head {
+    padding-left: 30px;
+  }
+  .common-doctor-contact .inner {
+    padding-right: 0;
+  }
+  .doctor-details-area .details-content .inner {
+    padding: 50px 30px 50px 30px;
+  }
+  .doctor-details-area .details-content .inner i {
+    right: 0;
+  }
+  .shop-details-area .describe-area .nav-pills .nav-item:first-child .nav-link {
+    padding-left: 15px;
+  }
+  .shop-details-area .describe-area .nav-pills .nav-item:last-child .nav-link {
+    padding-right: 15px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .services-item .bottom {
+    padding: 30px 15px 30px 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-item:before {
+    background: #fff;
+    opacity: 0.8;
+  }
+  .side-nav .social {
+    position: relative;
+    top: 4px;
+  }
+  .services-item .bottom {
+    padding: 30px 30px 30px 30px;
+  }
+  .services-item .bottom .icon {
+    right: 0;
+  }
+  .consultation-area .consultation-content ul li .common-btn {
+    margin-left: 0;
+  }
+  .doctors-item .bottom .right {
+    margin-right: 0;
+  }
+  .choose-area .choose-content ul li {
+    padding-right: 0;
+  }
+  .testimonials-area .testimonials-item {
+    padding: 30px 30px 30px 30px;
+  }
+  .testimonials-area .testimonials-item .top {
+    padding-right: 0;
+  }
+  .testimonials-area .testimonials-img img {
+    left: 0;
+  }
+  .banner-area.two .banner-item:before {
+    background: #fff;
+    opacity: 0.8;
+  }
+  .counter-item {
+    padding: 40px 20px 40px 20px;
+  }
+  .counter-item i {
+    right: 0;
+  }
+  .client-area .client-img img {
+    left: 0;
+  }
+  .appointment-area .appointment-content {
+    padding-right: 0;
+  }
+  .banner-area.three .banner-shape img:nth-child(3) {
+    left: 0;
+    right: 0;
+  }
+  .about-area.three .about-content {
+    padding-right: 0;
+  }
+  .common-doctor-contact .inner {
+    padding-right: 0;
+  }
+  .doctor-details-area .details-content .inner {
+    padding: 50px 30px 50px 30px;
+  }
+  .doctor-details-area .details-content .inner i {
+    right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .side-nav .cart {
+    margin-left: 2px;
+  }
+  .side-nav .languages {
+    margin-left: 2px;
+  }
+  .services-item .bottom {
+    padding: 30px 90px 30px 15px;
+  }
+  .services-item .bottom .icon {
+    right: 15px;
+  }
+  .consultation-area .consultation-content ul li .common-btn {
+    margin-left: 15px;
+  }
+  .counter-item {
+    padding: 40px 60px 40px 15px;
+  }
+  .counter-item i {
+    right: 15px;
+  }
+  .appointment-area .appointment-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
+  .services-item .bottom {
+    padding: 30px 105px 30px 15px;
+  }
+  .counter-item {
+    padding: 40px 75px 40px 30px;
+  }
+  .counter-item i {
+    right: 15px;
+  }
+  .appointment-area .appointment-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .mobile-nav .logo {
+    left: auto !important;
+    right: 15px !important;
+  }
+  .mean-container a.meanmenu-reveal {
+    padding: 15px 0 0 15px;
+    right: auto !important;
+    left: 0 !important;
+  }
+  .side-nav {
+    right: unset;
+    left: 65px;
+  }
+  .mean-container .mean-nav ul li a.mean-expand {
+    text-align: left !important;
+    left: 0;
+    right: auto;
+  }
+  .mean-container .mean-nav ul li a {
+    float: right !important;
+    text-align: right !important;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .client-area .client-img img {
+    left: 245px;
+  }
+}/*# sourceMappingURL=rtl.css.map */

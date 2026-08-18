@@ -1,0 +1,1739 @@
+@media only screen and (max-width : 767px) {
+
+    $all-size: 16px;
+    /*----- Default -----*/
+    body {
+        font-size: $all-size;
+    }
+    .mtb-100 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .mt-100 {
+        margin-top: 50px;
+    }
+    .mb-100 {
+        margin-bottom: 50px;
+    }
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .section-title {
+        margin-bottom: 30px;
+        margin-top: 0;
+        
+        .top {
+            .top-title {
+                font-size: 35px;
+                line-height: 35px;
+            }
+            .sub-title {
+                top: 12px;
+                font-size: 17px;
+            }
+        }
+        h2 {
+            font-size: 28px;
+        }
+    }
+
+    /*----- Home Demo One -----*/
+    .header-area {
+        text-align: center;
+        padding-bottom: 0;
+
+        .col-lg-2 {
+            display: none;
+        }
+        .right {
+            text-align: center;
+
+            ul {
+                li {
+                    margin-right: 5px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .side-nav {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #f1f1f1;
+
+        .cart {
+            a {
+                color: #20bdd1;
+            }
+        }
+        .languages {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 2px;
+    
+            .nice-select {
+                color: #35405c;
+                padding-left: 0;
+    
+                &:after {
+                    border-bottom: 2px solid #35405c;
+                    border-right: 2px solid #35405c;
+                }
+            }
+        }
+        .social {
+            margin-right: 5px;
+
+            ul {
+                display: block !important;
+
+                li {
+                    position: unset;
+                    float: unset;
+                    width: unset;
+
+                    a {
+                        float: unset;
+                        width: unset;
+                        padding: unset;
+                        margin: unset;
+                        text-align: unset;
+                        border-top: unset;
+                        text-decoration: unset;
+                        color: #35405c;
+                    }
+                }
+            }
+        }
+        .side-menu {
+            .modal-btn {
+                color: #fff;
+                background-color: #35405c;
+            }
+        }
+    }
+
+    .banner-item {
+        height: 100%;
+        padding-top: 200px;
+        padding-bottom: 100px;
+    
+        &:before {
+            background: #fff;
+            opacity: .80;
+        }
+    }
+    .banner-content {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        text-align: center;
+    
+        .title {
+            font-size: 18px;
+        }
+        h1 {
+            font-size: 35px;
+        }
+    }
+
+    .about-area {
+        padding-top: 50px;
+        
+        .about-content {
+            padding-top: 30px;
+            padding-bottom: 50px;
+            text-align: center;
+    
+            .section-title {
+                text-align: center;
+            }
+            ul {
+                li {
+                    display: inline-block;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+
+    .services-item {
+        .bottom {
+            padding: 30px 30px 30px 30px;
+            text-align: center;
+    
+            .icon {
+                position: relative;
+                top: 0;
+                left: 0;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .consultation-area {
+        .section-title {
+            text-align: center;
+        }
+        .consultation-content {
+            text-align: center;
+            
+            ul {
+                li {
+                    text-align: center;
+                    display: block;
+                    
+                    .common-btn {
+                        margin-bottom: 10px;
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .doctors-item {
+        .bottom {
+            text-align: center;
+
+            .left {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .right {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-left: 0;
+            }
+            i {
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .choose-area {
+        .choose-content {
+            text-align: center;
+
+            .section-title {
+                text-align: center;
+            }
+            ul {
+                li {
+                    padding-left: 0;
+
+                    i {
+                        margin-bottom: 20px;
+                        position: relative;
+                    }
+                    h3 {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog-item {
+        .bottom {
+            text-align: center;
+    
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .testimonials-area {
+        text-align: center;
+
+        .testimonials-img {
+            img {
+                position: relative;
+                right: 0;
+                margin-bottom: 30px;
+            }
+        }
+        .testimonials-slider {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .testimonials-item {
+            text-align: center;
+            padding: 30px 30px 30px 30px;
+    
+            .top {
+                padding-left: 0;
+
+                img {
+                    position: relative;
+                    margin-bottom: 20px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                h3 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .copyright-area {
+        text-align: center;
+    
+        p {
+            margin-bottom: 10px;
+        }
+        ul {
+            text-align: center;
+        }
+    }
+
+    /*----- Home Demo Two -----*/
+    .banner-area.two {
+        .banner-item {
+            padding-top: 180px;
+            padding-bottom: 120px;
+
+            &:before {
+                background: #fff;
+                opacity: .80;
+            }
+        }
+        .owl-theme {
+            .owl-dots {
+                .owl-dot {
+                    span {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .shop-item {
+        .bottom {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .client-area {
+        .client-img {
+            margin-top: 30px;
+            text-align: center;
+
+            img {
+                position: relative;
+                right: 0;
+            }
+        }
+        .section-title {
+            text-align: center;
+        }
+        .client-item {
+            text-align: center;
+
+            p {
+                margin-bottom: 15px;
+            }
+            ul {
+                position: relative;
+                margin-bottom: 15px;
+            }
+        }
+        .top-img {
+            text-align: center;
+
+            img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .features-item {
+        text-align: center;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .appointment-area {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 50px;
+
+        .appointment-img {
+            background-image: unset;
+    
+            img {
+                display: block;
+            }
+        }
+        .appointment-content {
+            padding-top: 30px;
+            padding-bottom: 50px;
+            padding-left: 0;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+    
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    
+    /*----- Home Demo Three -----*/
+    .banner-area.three {
+        .banner-shape {
+            text-align: center;
+
+            img {
+                &:nth-child(3) {
+                    right: 0;
+                    max-width: 280px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    left: 0;
+                }
+            }
+        }
+        .banner-item {
+            height: 100%;
+            padding-top: 180px;
+            padding-bottom: 430px;
+        }
+        .banner-content {
+            .common-btn {
+                margin-left: 2px;
+                margin-right: 2px;
+                padding-left: 7px;
+                padding-right: 7px;
+            }
+            .banner-btn {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .about-area.three {
+        .about-img-two {
+            img {
+                top: 0;
+                left: 0;
+                max-width: 100%;
+            }
+        }
+        .about-content {
+            padding-left: 0;
+
+            ul {
+                li {
+                    display: block;
+
+                    &:nth-child(1) {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .services-area.three {
+        .section-title {
+            text-align: center;
+    
+            p {
+                position: relative;
+                top: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    .faq-area {
+        .container {
+            .faq-img {
+                img {
+                    position: relative;
+                    left: 0;
+                    bottom: 0;
+                    max-width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .faq-item {
+            padding: 30px 15px 30px;
+
+            .accordion {
+                li {
+                    .faq-head {
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*----- About -----*/
+    .page-title-area {
+        height: 400px;
+
+        .title-content {
+            margin-top: 95px;
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+    .services-area.four {
+        .section-title {
+            text-align: center;
+
+            p {
+                position: relative;
+                top: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    /*----- Doctor Details -----*/
+    .doctor-details-area {
+        text-align: center;
+
+        .details-content {
+            h2 {
+                font-size: 35px;
+            }
+            .info {
+                ul {
+                    li {
+                        span {
+                            position: relative;
+                        }
+                    }
+                }
+            }
+            h3 {
+                font-size: 20px;
+            }
+            .inner {
+                padding: 50px 30px 50px 30px;
+
+                i {
+                    margin-bottom: 15px;
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                }
+                h4 {
+                    font-size: 18px;
+                }
+            }
+            .list-service {
+                ul {
+                    li {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        text-align: start;
+                    }
+                }
+            }
+        }
+    }
+    .common-doctor-contact {
+        .inner {
+            padding-left: 0;
+
+            a {
+                font-size: 25px;
+            }
+            i {
+                margin-bottom: 20px;
+                position: relative;
+                top: 0;
+            }
+        }
+        h4 {
+            font-size: 25px;
+        }
+    }
+
+    /*----- Service Details -----*/
+    .service-details-area {
+        .details-item {
+            text-align: center;
+            margin-bottom: 30px;
+
+            h2 {
+                font-size: 25px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+            ul {
+                li {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    .widget-area {
+        .widget-item {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .service-details-area.two {
+        .widget-item {
+            &:last-child {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .service-details-area.three {
+        .widget-item {
+            &:last-child {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .wishlist-area {
+        .wishlist-item {
+            overflow-x: scroll;
+        }
+        .table {
+            width: 800px;
+        }
+    }
+
+    .shop-details-area {
+        .details-content {
+            h2 {
+                font-size: 24px;
+            }
+        }
+        .describe-area {
+            .nav-pills {
+                .nav-link {
+                    font-size: 16px;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+
+    .blog-details-area {
+        .details-item {
+            text-align: center;
+
+            h2 {
+                font-size: 25px;
+            }
+            .tags {
+                .left {
+                    margin-bottom: 10px;
+                }
+                .right {
+                    text-align: center;
+                }
+            }
+            .comment {
+                margin-bottom: 30px;
+
+                h3 {
+                    font-size: 20px;
+                }
+                .form-group {
+                    text-align: start;
+                }
+            }
+        }
+    }
+
+    .blog-details-area.two {
+        .common-doctor-contact {
+            margin-bottom: 30px;
+        }
+    }
+
+    .rules-area {
+        .inner {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .error-area {
+        .error-content {
+            h1 {
+                font-size: 70px;
+            }
+        }
+    }
+    .blog-details-area {
+        .details-item {
+            .arrows {
+                .left {
+                    text-align: start;
+                }
+            }
+        }
+    }
+    .appointment-area.two {
+        .appointment-img-two.left:nth-child(1) img {
+            margin-top: 0;
+        }
+        .appointment-content {
+            padding-left: 0;
+        }
+    }
+    .choose-area {
+        .choose-shape {
+            img {
+                max-width: 50px;
+            }
+        }
+    }
+    .about-area.two {
+        .about-shape {
+            img {
+                max-width: 75px;
+            }
+        }
+    }
+    .counter-item {
+        padding: 40px 20px 40px 20px;
+        text-align: center;
+
+        i {
+            position: relative;
+            left: 0;
+            top: 0;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+
+    .services-item {
+        .bottom {
+            padding: 30px 15px 30px 15px;
+        }
+    }
+    .blog-item {
+        .bottom {
+            padding: 30px 10px 30px;
+        }
+    }
+    .features-item {
+        padding: 30px 15px;
+    }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    $all-size: 16px;
+    /*----- Default -----*/
+    body {
+        font-size: $all-size;
+    }
+    .mtb-100 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .mt-100 {
+        margin-top: 70px;
+    }
+    .mb-100 {
+        margin-bottom: 70px;
+    }
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+    .pb-100 {
+        padding-bottom: 70px;
+    }
+    .container-fluid {
+        max-width: 720px !important;
+    }
+    .section-title {
+        margin-bottom: 30px;
+        
+        h2 {
+            font-size: 35px;
+        }
+    }
+
+    /*----- Home Demo One -----*/
+    .header-area {
+        text-align: center;
+
+        .col-lg-2 {
+            display: none;
+        }
+        .right {
+            text-align: center;
+        }
+    }
+
+    .side-nav {
+        text-align: center;
+        position: absolute;
+        top: 5px;
+        right: 75px;
+
+        .cart {
+            a {
+                color: #20bdd1;
+            }
+        }
+        .languages {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+    
+            .nice-select {
+                color: #35405c;
+    
+                &:after {
+                    border-bottom: 2px solid #35405c;
+                    border-right: 2px solid #35405c;
+                }
+            }
+        }
+        .social {
+            margin-right: 15px;
+
+            ul {
+                display: block !important;
+
+                li {
+                    position: unset;
+                    float: unset;
+                    width: unset;
+
+                    a {
+                        float: unset;
+                        width: unset;
+                        padding: unset;
+                        margin: unset;
+                        text-align: unset;
+                        border-top: unset;
+                        text-decoration: unset;
+                        color: #35405c;
+                    }
+                }
+            }
+        }
+        .side-menu {
+            .modal-btn {
+                color: #fff;
+                background-color: #35405c;
+            }
+        }
+    }
+
+    .banner-item {
+        height: 100%;
+        padding-top: 180px;
+        padding-bottom: 100px;
+    
+        &:before {
+            background: #fff;
+            opacity: .80;
+        }
+    }
+    .banner-content {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        text-align: center;
+    
+        .title {
+            font-size: 18px;
+        }
+        h1 {
+            font-size: 45px;
+        }
+    }
+
+    .about-area {
+        padding-top: 70px;
+        
+        .about-content {
+            padding-top: 30px;
+            padding-bottom: 70px;
+            text-align: center;
+    
+            .section-title {
+                text-align: center;
+            }
+            ul {
+                li {
+                    padding-left: 0;
+
+                    i {
+                        position: relative;
+                        top: 0;
+                        margin-bottom: 8px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .services-item {
+        .bottom {
+            padding: 30px 30px 30px 30px;
+            text-align: center;
+    
+            .icon {
+                position: relative;
+                top: 0;
+                left: 0;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .consultation-area {
+        .section-title {
+            text-align: center;
+        }
+        .consultation-content {
+            text-align: center;
+            
+            ul {
+                li {
+                    text-align: center;
+                    display: block;
+                    
+                    .common-btn {
+                        margin-bottom: 10px;
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .doctors-item {
+        .bottom {
+            text-align: center;
+
+            .left {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .right {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-left: 0;
+            }
+            i {
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .choose-area {
+        .choose-content {
+            text-align: center;
+
+            .section-title {
+                text-align: center;
+            }
+            ul {
+                li {
+                    padding-left: 0;
+
+                    i {
+                        margin-bottom: 20px;
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog-item {
+        .bottom {
+            text-align: center;
+        }
+    }
+
+    .testimonials-area {
+        text-align: center;
+
+        .testimonials-img {
+            img {
+                position: relative;
+                right: 0;
+                margin-bottom: 30px;
+            }
+        }
+        .testimonials-slider {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .testimonials-item {
+            text-align: center;
+            padding: 30px 30px 30px 30px;
+    
+            .top {
+                padding-left: 0;
+
+                img {
+                    position: relative;
+                    margin-bottom: 20px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+
+    .copyright-area {
+        text-align: center;
+    
+        p {
+            margin-bottom: 10px;
+        }
+        ul {
+            text-align: center;
+        }
+    }
+
+    /*----- Home Demo Two -----*/
+    .banner-area.two {
+        .banner-item {
+            padding-top: 140px;
+            padding-bottom: 140px;
+
+            &:before {
+                background: #fff;
+                opacity: .80;
+            }
+        }
+    }
+
+    .client-area {
+        .client-img {
+            margin-top: 30px;
+            text-align: center;
+
+            img {
+                position: relative;
+                right: 0;
+            }
+        }
+        .slider-for {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .slider-nav {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .section-title {
+            text-align: center;
+
+            h2 {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .client-item {
+            text-align: center;
+
+            p {
+                margin-bottom: 15px;
+            }
+            ul {
+                position: relative;
+                margin-bottom: 15px;
+            }
+        }
+        .top-img {
+            text-align: center;
+
+            img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    .features-item {
+        text-align: center;
+    }
+
+    .appointment-area {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 70px;
+
+        .appointment-img {
+            background-image: unset;
+    
+            img {
+                display: block;
+            }
+        }
+        .appointment-content {
+            padding-top: 30px;
+            padding-bottom: 70px;
+            padding-left: 0;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+    
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    /*----- Home Demo Three -----*/
+    .banner-area.three {
+        .banner-shape {
+            text-align: center;
+
+            img {
+                &:nth-child(3) {
+                    right: 0;
+                    max-width: 280px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    left: 0;
+                }
+            }
+        }
+        .banner-item {
+            height: 100%;
+            padding-top: 135px;
+            padding-bottom: 420px;
+        }
+    }
+
+    .about-area.three {
+        .about-img-two {
+            img {
+                top: 0;
+            }
+        }
+        .about-content {
+            padding-left: 0;
+        }
+    }
+
+    .services-area.three {
+        .section-title {
+            text-align: center;
+    
+            p {
+                position: relative;
+                top: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    .faq-area {
+        .container {
+            .faq-img {
+                text-align: center;
+
+                img {
+                    position: relative;
+                    left: 0;
+                    bottom: 0;
+                    max-width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .faq-item {
+            padding: 30px 15px 30px;
+
+            .accordion {
+                li {
+                    .faq-head {
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .counter-item {
+        padding: 40px 20px 40px 20px;
+        text-align: center;
+
+        i {
+            position: relative;
+            left: 0;
+            top: 0;
+            margin-bottom: 20px;
+        }
+    }
+
+    /*----- About -----*/
+    .page-title-area {
+        height: 400px;
+
+        .title-content {
+            margin-top: 60px;
+        }
+    }
+    .services-area.four {
+        .section-title {
+            text-align: center;
+
+            p {
+                position: relative;
+                top: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    /*----- Doctor Details -----*/
+    .doctor-details-area {
+        text-align: center;
+
+        .details-content {
+            .info {
+                ul {
+                    li {
+                        span {
+                            position: relative;
+                        }
+                    }
+                }
+            }
+            .inner {
+                padding: 50px 30px 50px 30px;
+
+                i {
+                    margin-bottom: 15px;
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            .list-service {
+                ul {
+                    li {
+                        text-align: start;
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .common-doctor-contact {
+        .inner {
+            padding-left: 0;
+
+            i {
+                margin-bottom: 20px;
+                position: relative;
+                top: 0;
+            }
+        }
+    }
+
+    /*----- Service Details -----*/
+    .service-details-area {
+        .details-item {
+            text-align: center;
+            margin-bottom: 30px;
+
+            ul {
+                li {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    .service-details-area.two {
+        .widget-item {
+            &:last-child {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .service-details-area.three {
+        .widget-item {
+            &:last-child {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .blog-details-area {
+        .details-item {
+            text-align: center;
+
+            .tags {
+                .left {
+                    margin-bottom: 10px;
+                }
+                .right {
+                    text-align: center;
+                }
+            }
+            .comment {
+                margin-bottom: 30px;
+
+                .form-group {
+                    text-align: start;
+                }
+            }
+        }
+    }
+
+    .blog-details-area.two {
+        .common-doctor-contact {
+            margin-bottom: 30px;
+        }
+    }
+
+    .blog-item {
+        .bottom {
+            padding: 30px 15px 30px;
+            
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+    .appointment-area.two {
+        .appointment-content {
+            padding-left: 0;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .mean-container {
+        .mean-bar {
+            background-color: #fff;
+            border-top: 1px solid #f1f1f1;
+        }
+        a.meanmenu-reveal {
+            color: #35405c;
+
+            span {
+                margin-top: 30px;
+                position: relative;
+                top: -10px;
+                background-color: #35405c;
+                border-radius: 0%;
+            }
+        }
+        .mean-nav ul li a.mean-expand {
+            margin-top: 0;
+        }
+    }
+    .mobile-nav {
+        .logo {
+            top: 8px;
+            .mobile-logo2 {
+                display: none;
+            }
+        }
+    }
+    .mobile-nav.mean-container {
+        .mean-nav {
+            ul {
+                li {
+                    a {
+                        &.active {
+                            color: #20bdd1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .navbar-nav {
+        max-height: 320px;
+        overflow-y: scroll;
+    }
+
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .main-nav {
+        nav {
+            .navbar-nav {
+                .nav-item {
+                    a {
+                        margin-left: 6px;
+                        margin-right: 6px;
+                    }
+                }
+            }
+        }
+    }
+    .side-nav {
+        .cart {
+            margin-right: 2px;
+        }
+        .languages {
+            margin-right: 2px;
+        }
+        .social {
+            margin-right: 10px;
+        }
+    }
+
+    .consultation-area {
+        .consultation-content {
+            ul {
+                li {
+                    .common-btn {
+                        margin-right: 15px;
+                    }
+                    h3 {
+                        font-size: 25px;
+                    }
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .doctors-item {
+        .bottom {
+            padding: 30px 15px 30px;
+
+            .left {
+                flex: 0 0 23%;
+                max-width: 23%;
+            }
+            .right {
+                flex: 0 0 70%;
+                max-width: 70%;
+                margin-left: 10px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .services-item {
+        .bottom {
+            padding: 30px 15px 30px 90px;
+
+            .icon {
+                left: 15px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .counter-item {
+        padding: 40px 15px 40px 60px;
+
+        i {
+            font-size: 40px;
+            line-height: 40px;
+            left: 15px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .client-area {
+        .client-img {
+            img {
+                max-width: 295px;
+            }
+        }
+    }
+
+    .features-item {
+        padding: 30px 15px;
+
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .appointment-area {
+        .appointment-content {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    .banner-area.three {
+        .banner-shape {
+            img {
+                &:nth-child(3) {
+                    max-width: 265px;
+                }
+            }
+        }
+    }
+
+    .about-area.three {
+        .about-img-two {
+            img {
+                top: 0;
+                max-width: 430px;
+            }
+        }
+        .about-content {
+            padding-left: 15px;
+        }
+    }
+
+    .services-area.three {
+        .section-title {
+            p {
+                max-width: 410px;
+            }
+        }
+    }
+
+    .faq-area {
+        .container {
+            .faq-img {
+                text-align: center;
+
+                img {
+                    position: relative;
+                    left: 0;
+                    bottom: 0;
+                    max-width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .faq-item {
+            margin-right: auto;
+        }
+    }
+
+    .services-area.four {
+        .section-title {
+            p {
+                max-width: 435px;
+            }
+        }
+    }
+    .testimonials-area {
+        .testimonials-img {
+            img {
+                max-width: 85px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1350px) {
+
+    .services-item {
+        .bottom {
+            padding: 30px 15px 30px 105px;
+        }
+    }
+
+    .doctors-item {
+        .bottom {
+            padding: 30px 15px 30px;
+        }
+    }
+
+    .counter-item {
+        padding: 40px 30px 40px 75px;
+
+        i {
+            font-size: 40px;
+            line-height: 40px;
+            top: 40px;
+            left: 20px;
+        }
+    }
+
+    .client-area {
+        .client-img {
+            img {
+                max-width: 500px;
+            }
+        }
+    }
+
+    .features-item {
+        padding: 30px 15px;
+    }
+
+    .appointment-area {
+        .appointment-content {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    
+    .banner-area.three {
+        .banner-shape {
+            img {
+                &:nth-child(3) {
+                    max-width: 380px;
+                }
+            }
+        }
+    }
+    .about-area.three {
+        .about-img-two {
+            img {
+                max-width: 520px;
+            }
+        }
+    }
+
+    .faq-area {
+        .container {
+            .faq-img {
+                img {
+                    max-width: 330px;
+                }
+            }
+        }
+    }
+
+    .services-area.four {
+        .section-title {
+            p {
+                max-width: 630px;
+            }
+        }
+    }
+    .testimonials-area {
+        .testimonials-img {
+            img {
+                max-width: 90px;
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 1300px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1320px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1400px;
+        width: 100%;
+    }
+    .testimonials-area {
+        .testimonials-img {
+            img {
+                max-width: 410px;
+            }
+        }
+    }
+    .client-area {
+        .client-img {
+            img {
+                right: 245px;
+            }
+        }
+    }
+    .banner-area.three {
+        .banner-shape {
+            img {
+                &:nth-child(3) {
+                    right: 310px;
+                }
+            }
+        }
+    }
+    .about-area.three {
+        .about-img-two {
+            &:before {
+                width: 96%;
+            }
+            img {
+                left: 65px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,1142 @@
+.header-area {
+    .right {
+        ul {
+            li {
+                padding-left: 0;
+                padding-right: 50px;
+                margin-right: 0;
+                margin-left: 50px;
+                
+                &:last-child {
+                    margin-left: 0;
+                }
+                i {
+                    right: 0;
+                    left: auto;
+                }
+            }
+        }
+    }
+}
+.main-nav {
+    nav {
+        .navbar-nav {
+            margin-left: auto;
+            margin-right: 0;
+
+            .nav-item {
+                a {
+                    &:before {
+                        left: unset;
+                        right: 0;
+                    }
+                }
+                .dropdown-menu {
+                    left: auto;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+.side-nav {
+    .cart {
+        margin-right: 0;
+        margin-left: 10px;
+
+        a {
+            i {
+                transform: rotateY(180deg);
+            }
+            span {
+                right: auto;
+                left: -4px;
+            }
+        }
+    }
+    .social {
+        margin-right: 0;
+        margin-left: 25px;
+        
+        ul {
+            li {
+                margin-right: 0;
+                margin-left: 3px;
+
+                &:last-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .languages {
+        margin-right: 0;
+        margin-left: 15px;
+
+        .nice-select {
+            padding-left: 30px;
+            padding-right: 18px;
+
+            &:after {
+                right: auto;
+                left: 12px;
+            }
+            .option {
+                padding-left: 29px;
+                padding-right: 18px;
+                text-align: right;
+            }
+        }
+    }
+}
+.banner-item {
+    &:before {
+        background: linear-gradient(280deg, rgba(255,255,255,0.8169688535540292) 36%, rgba(255,255,255,0) 61%);
+        opacity: .80;
+    }
+}
+.about-area {
+    .about-content {
+        ul {
+            li {
+                padding-left: 0;
+                padding-right: 40px;
+
+                i {
+                    left: auto;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+.services-item {
+    .bottom {
+        padding: 30px 105px 30px 30px;
+
+        .icon {
+            left: auto;
+            right: 30px;
+        }
+    }
+}
+.consultation-area {
+    .consultation-content {
+        ul {
+            li {
+                .common-btn {
+                    margin-right: 0;
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+}
+.doctors-item {
+    .top {
+        ul {
+            left: auto;
+            right: 30px;
+        }
+    }
+    .bottom {
+        .right {
+            margin-left: 0;
+            margin-right: 15px;
+        }
+    }
+}
+.choose-area {
+    .choose-content {
+        ul {
+            li {
+                padding-left: 0;
+                padding-right: 70px;
+
+                i {
+                    left: auto;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+.blog-item {
+    .bottom {
+        ul {
+            li {
+                margin-right: 0;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+.testimonials-area {
+    .testimonials-item {
+        padding: 30px 30px 30px 90px;
+
+        .top {
+            padding-left: 0;
+            padding-right: 75px;
+
+            img {
+                left: auto;
+                right: 0;
+            }
+        }
+        .icon {
+            right: auto;
+            left: 35px;
+        }
+    }
+    .testimonials-img {
+        img {
+            right: auto;
+            left: 30px;
+        }
+    }
+}
+.footer-item {
+    .footer-links {
+        ul  {
+            li {
+                a {
+                    &:hover {
+                        padding-left: 0;
+                        padding-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-hours {
+        ul {
+            li {
+                span {
+                    right: auto;
+                    left: 0;
+                }
+            }
+        }
+    }
+}
+.copyright-area {
+    ul {
+        li {
+            margin-right: 0;
+            margin-left: 15px;
+            padding-right: 0;
+            padding-left: 15px;
+            border-right: 0;
+            border-left: 1px solid #fff;
+
+            &:last-child {
+                margin-left: 0;
+                padding-left: 0;
+                border-left: 0;
+            }
+        }
+    }
+}
+.go-top {
+    right: auto;
+    left: 0;
+
+    &.active {
+        right: auto;
+        left: 1%;
+    }
+}
+
+.banner-area.two {
+    .banner-item {
+        &:before {
+            background: linear-gradient(280deg, rgba(255, 255, 255, 0.816969) 36%, rgba(255, 255, 255, 0) 61%);
+        }
+    }
+}
+.counter-item {
+    padding: 40px 115px 40px 30px;
+
+    i {
+        left: auto;
+        right: 30px;
+    }
+}
+.client-area {
+    .client-item {
+        ul {
+            right: auto;
+            left: 0;
+        }
+    }
+    .client-img {
+        img {
+            right: auto;
+            left: 30px;
+        }
+    }
+}
+.features-item {
+    span {
+        right: auto;
+        left: 30px;
+    }
+}
+.appointment-area {
+    .appointment-content {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+}
+.banner-area.three {
+    .banner-shape {
+        img {
+            &:nth-child(3) {
+                right: auto;
+                left: 75px;
+            }
+        }
+    }
+}
+.main-nav.two {
+    .side-nav {
+        .social {
+            margin-left: 0;
+        }
+    }
+}
+.banner-area.three {
+    .banner-content {
+        .banner-btn {
+            margin-left: 0;
+            margin-right: 15px;
+        }
+    }
+}
+.about-area.three {
+    .about-content {
+        padding-left: 0;
+        padding-right: 30px;
+
+        .section-title {
+            p {
+                border-right: 3px solid #20bdd1;
+                border-left: 0;
+                padding-left: 0;
+                padding-right: 15px;
+            }
+        }
+        ul {
+            li {
+                margin-right: 0;
+                margin-left: 20px;
+                padding-right: 0;
+
+                span {
+                    margin-left: 0;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .about-img-two {
+        &:before {
+            left: auto;
+            right: 0;
+        }
+        img {
+            left: auto;
+            right: 40px;
+        }
+    }
+}
+.services-area.three {
+    .section-title {
+        p {
+            right: auto;
+            left: 0;
+        }
+    }
+}
+.faq-area {
+    .faq-item {
+        .accordion {
+            li {
+                .faq-head {
+                    padding-left: 0;
+                    padding-right: 50px;
+
+                    &:after {
+                        right: auto;
+                        left: 15px;
+                    }
+                    span {
+                        left: auto;
+                        right: 0;
+                    }
+                }
+                .faq-content {
+                    padding-left: 0;
+                    padding-right: 50px;
+                }
+            }
+        }
+    }
+}
+.page-title-area {
+    .title-content {
+        ul {
+            li {
+                &:before {
+                    right: auto;
+                    left: -13px;
+                }
+            }
+        }
+    }
+}
+.services-area.four {
+    .section-title {
+        p {
+            left: 0;
+            right: auto;
+        }
+    }
+}
+.common-doctor-contact {
+    .inner {
+        padding-left: 0;
+        padding-right: 85px;
+
+        i {
+            left: auto;
+            right: 0;
+        }
+    }
+}
+.doctor-details-area {
+    .details-content {
+        .info {
+            ul {
+                li {
+                    span {
+                        right: auto;
+                        left: 0;
+                    }
+                }
+            }
+        }
+        .inner {
+            padding: 50px 110px 50px 30px;
+
+            i {
+                left: auto;
+                right: 30px;
+            }
+        }
+        .list-service {
+            ul {
+                li {
+                    margin-right: 0;
+                    margin-left: 15px;
+                    padding: 15px 35px 15px 15px;
+
+                    &:before {
+                        left: auto;
+                        right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+.widget-area {
+    .widget-item {
+        h3 {
+            &:before {
+                left: auto;
+                right: 0;
+            }
+        }
+    }
+    .categories {
+        ul {
+            li {
+                a {
+                    padding: 15px 35px 15px 15px;
+
+                    &:before {
+                        left: auto;
+                        right: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .consult {
+        .nice-select {
+            padding-left: 30px;
+            padding-right: 18px;
+            text-align: right !important;
+
+            &:after {
+                right: auto;
+                left: 12px;
+            }
+            .option {
+                padding-left: 29px;
+                padding-right: 18px;
+                text-align: right;
+            }
+        }
+    }
+}
+.form-control {
+    text-align: right !important;
+}
+.service-details-area {
+    .details-item {
+        ul {
+            li {
+                padding-left: 0;
+                padding-right: 20px;
+
+                &:before {
+                    left: auto;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+.cart-area {
+    .cart-content {
+        p {
+            padding: 30px 75px 30px 30px;
+
+            &:before {
+                left: auto;
+                right: 30px;
+            }
+        }
+    }
+}
+.checkout-area {
+    .summery {
+        ul {
+            li {
+                span {
+                    right: auto;
+                    left: 0;
+                }
+            }
+        }
+    }
+    .top {
+        .form-check {
+            padding: 25px 60px 25px 25px;
+        }
+    }
+}
+.shop-details-area {
+    .details-content {
+        .tag {
+            li {
+                span {
+                    right: auto;
+                    left: 0;
+                }
+                .number {
+                    right: auto;
+                    left: 0;
+                }
+            }
+        }
+    }
+    .describe-area {
+        .nav-pills {
+            .nav-item {
+                &:first-child {
+                    .nav-link {
+                        padding-left: 25px;
+                        padding-right: 0;
+                    } 
+                }   
+                &:last-child {
+                    .nav-link {
+                        border-left: 0;
+                        padding-right: 25px;
+                    }
+                }
+            }        
+            .nav-link {
+                border-left: 1px solid #20bdd1;
+                border-right: 0;
+            }
+        }
+        .tab-content {
+            ul {
+                li {
+                    padding-left: 0;
+                    padding-right: 110px;
+
+                    img {
+                        left: auto;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.blog-details-area {
+    .details-item {
+        ul {
+            li {
+                margin-right: 0;
+                margin-left: 15px;
+            }
+        }
+        blockquote {
+            border-left: 0;
+            border-right: 2px solid #20bdd1;
+        }
+        .tags {
+            .right {
+                ul {
+                    li {
+                        margin-right: 0;
+                        margin-left: 10px;
+                    }
+                }
+            }
+            .left {
+                ul {
+                    li {
+                        margin-right: 0;
+                        margin-left: 10px;
+
+                        &:last-child {
+                            &:before {
+                                display: none;
+                            }
+                        }
+                        &:before {
+                            right: auto;
+                            left: -6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.widget-area {
+    .search {
+        form {
+            .btn {
+                right: auto;
+                left: 0;
+            }
+        }
+    }
+    .post {
+        .inner {
+            ul {
+                li {
+                    &:nth-child(2) {
+                        margin-left: 0;
+                        margin-right: 10px;
+                    }
+                    span {
+                        padding-left: 0;
+                        padding-right: 15px;
+
+                        &:before {
+                            left: auto;
+                            right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tags {
+        ul {
+            li {
+                margin-right: 0;
+                margin-left: 3px;
+            }
+        }
+    }
+}
+.account-area {
+    .account-item {
+        .nav-pills {
+            li {
+                &:last-child {
+                    .nav-link {
+                        margin-left: 0;
+                        padding-left: 0;
+                        border-left: 0;
+                    }
+                }
+                .nav-link {
+                    border-right: 0;
+                    border-left: 1px solid #35405c;
+                    margin-right: 0;
+                    margin-left: 20px;
+                    padding-right: 0;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}
+.rules-area {
+    .inner {
+        ul {
+            li {
+                padding-left: 0;
+                padding-right: 20px;
+
+                &:before {
+                    left: auto;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+.modal.modal-right {
+    .modal-dialog {
+        transform: translate(-100%, 0);
+        margin: 0 auto 0 0;
+    }
+}
+
+.buy-now-btn {
+    left: 20px;
+    right: auto;
+}
+.switch-box {
+    left: 120px;
+    right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .header-area {
+        .right {
+            ul {
+                li {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .side-nav {
+        .social {
+            margin-left: 5px;
+            position: relative;
+            top: 3px;
+        }
+        .languages {
+            margin-left: 2px;
+        }
+    }
+    .banner-item {
+        &:before {
+            background: #fff;
+            opacity: .80;
+        }
+    }
+    .services-item {
+        .bottom {
+            padding: 30px 30px 30px 30px;
+
+            .icon {
+                right: 0;
+            }
+        }
+    }
+    .consultation-area {
+        .consultation-content {
+            ul {
+                li {
+                    .common-btn {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .doctors-item {
+        .bottom {
+            .right {
+                margin-right: 0;
+            }
+        }
+    }
+    .choose-area {
+        .choose-content {
+            ul {
+                li {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+    .testimonials-area {
+        .testimonials-item {
+            padding: 30px 30px 30px 30px;
+
+            .top {
+                padding-right: 0;
+            }
+        }
+        .testimonials-img {
+            img {
+                left: 0;
+            }
+        }
+    }
+    .banner-area.two {
+        .banner-item {
+            &:before {
+                background: #fff;
+                opacity: .80;
+            }
+        }
+    }
+    .counter-item {
+        padding: 40px 20px 40px 20px;
+
+        i {
+            right: 0;
+        }
+    }
+    .client-area {
+        .client-img {
+            img {
+                left: 0;
+            }
+        }
+    }
+    .appointment-area {
+        .appointment-content {
+            padding-right: 0;
+        }
+    }
+    .banner-area.three {
+        .banner-shape {
+            img {
+                &:nth-child(3) {
+                    left: 0;
+                }
+            }
+        }
+    }
+    .about-area.three {
+        .about-img-two {
+            img {
+                right: 0;
+            }
+        }
+        .about-content {
+            padding-right: 0;
+        }
+    }
+    .faq-area {
+        .faq-item {
+            .accordion {
+                li {
+                    .faq-head {
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .common-doctor-contact {
+        .inner {
+            padding-right: 0;
+        }
+    }
+    .doctor-details-area {
+        .details-content {
+            .inner {
+                padding: 50px 30px 50px 30px;
+
+                i {
+                    right: 0;
+                }
+            }
+        }
+    }
+    .shop-details-area {
+        .describe-area {
+            .nav-pills {
+                .nav-item {
+                    &:first-child {
+                        .nav-link {
+                            padding-left: 15px;
+                        }
+                    }
+                    &:last-child {
+                        .nav-link {
+                            padding-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+    .services-item {
+        .bottom {
+            padding: 30px 15px 30px 15px;
+        }
+    }
+
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .banner-item {
+        &:before {
+            background: #fff;
+            opacity: .80;
+        }
+    }
+    .side-nav {
+        .social {
+            position: relative;
+            top: 4px;
+        }
+    }
+    .services-item {
+        .bottom {
+            padding: 30px 30px 30px 30px;
+
+            .icon {
+                right: 0;
+            }
+        }
+    }
+    .consultation-area {
+        .consultation-content {
+            ul {
+                li {
+                    .common-btn {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .doctors-item {
+        .bottom {
+            .right {
+                margin-right: 0;
+            }
+        }
+    }
+    .choose-area {
+        .choose-content {
+            ul {
+                li {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+    .testimonials-area {
+        .testimonials-item {
+            padding: 30px 30px 30px 30px;
+
+            .top {
+                padding-right: 0;
+            }
+        }
+        .testimonials-img {
+            img {
+                left: 0;
+            }
+        }
+    }
+    .banner-area.two {
+        .banner-item {
+            &:before {
+                background: #fff;
+                opacity: .80;
+            }
+        }
+    }
+    .counter-item {
+        padding: 40px 20px 40px 20px;
+
+        i {
+            right: 0;
+        }
+    }
+    .client-area {
+        .client-img {
+            img {
+                left: 0;
+            }
+        }
+    }
+    .appointment-area {
+        .appointment-content {
+            padding-right: 0;
+        }
+    }
+    .banner-area.three {
+        .banner-shape {
+            img {
+                &:nth-child(3) {
+                    left: 0;
+                    right: 0;
+                }
+            }
+        }
+    }
+    .about-area.three {
+        .about-content {
+            padding-right: 0;
+        }
+    }
+    .common-doctor-contact {
+        .inner {
+            padding-right: 0;
+        }
+    }
+    .doctor-details-area {
+        .details-content {
+            .inner {
+                padding: 50px 30px 50px 30px;
+
+                i {
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+ 
+    .side-nav {
+        .cart {
+            margin-left: 2px;
+        }
+        .languages {
+            margin-left: 2px;
+        }
+    }
+    .services-item {
+        .bottom {
+            padding: 30px 90px 30px 15px;
+
+            .icon {
+                right: 15px;
+            }
+        }
+    }
+    .consultation-area {
+        .consultation-content {
+            ul {
+                li {
+                    .common-btn {
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .counter-item {
+        padding: 40px 60px 40px 15px;
+
+        i {
+            right: 15px;
+        }
+    }
+    .appointment-area {
+        .appointment-content {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
+
+    .services-item {
+        .bottom {
+            padding: 30px 105px 30px 15px;
+        }
+    }
+    .counter-item {
+        padding: 40px 75px 40px 30px;
+
+        i {
+            right: 15px;
+        }
+    }
+    .appointment-area {
+        .appointment-content {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .mobile-nav {
+        .logo {
+            left: auto !important;
+            right: 15px !important;
+        }
+    }
+    .mean-container a.meanmenu-reveal {
+        padding: 15px 0 0 15px;
+        right: auto !important;
+        left: 0 !important;
+    }
+    .side-nav {
+        right: unset;
+        left: 65px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        text-align: left !important;
+        left: 0;
+        right: auto;
+    }
+    .mean-container .mean-nav ul li a {
+        float: right !important;
+        text-align: right !important;
+    }
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .client-area {
+        .client-img {
+            img {
+                left: 245px;
+            }
+        }
+    }
+
+}
